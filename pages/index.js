@@ -19,7 +19,7 @@ export default function Home() {
       <ImageUploader/>
       <Steps/>
       <Whyus/>
-      <Blogs/>
+      {/* <Blogs/> */}
       <Gradientbanner/>
     </>
   )
