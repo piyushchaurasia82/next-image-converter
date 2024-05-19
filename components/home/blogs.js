@@ -19,24 +19,24 @@ const Blogs = () => {
                         </div>
                         <div className=" md:w-6/12">
                             <ul className="text-[#6166EB] font-harmony-bold text-base leading-10 underline list-disc">
-                                <a href="/">
+                                <Link href="/">
                                     <li>How to Easily Convert DCM to JPG Online</li>
-                                </a>
-                                <a href="/">
+                                </Link>
+                                <Link href="/">
                                     <li>Convert PHP to JPG Easily</li>
-                                </a>
-                                <a href="/">
+                                </Link>
+                                <Link href="/">
                                     <li>Easy Way to Convert PSB to JPG</li>
-                                </a>
-                                <a href="/">
+                                </Link>
+                                <Link href="/">
                                     <li>Best ARW to JPG Converter-No Doubt</li>
-                                </a>
-                                <a href="/">
+                                </Link>
+                                <Link href="/">
                                     <li>How to Convert JIF to JPG?</li>
-                                </a>
-                                <a href="/">
+                                </Link>
+                                <Link href="/">
                                     <li>The Only Way to Convert DSC to JPG</li>
-                                </a>
+                                </Link>
                             </ul>
                         </div>
                     </div>

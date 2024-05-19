@@ -13,9 +13,9 @@ export default function Home() {
         <title>Next Imge Converter</title>
         <meta name="description" content="Next Imge Converter" />
         <link rel="icon" href="/favicon.ico" />
-        <Script src="https://kit.fontawesome.com/ab8497c908.js" crossorigin="anonymous"></Script>
+        
       </Head>
-
+      <Script src="https://kit.fontawesome.com/ab8497c908.js" crossorigin="anonymous"></Script>
       <ImageUploader/>
       <Steps/>
       <Whyus/>
