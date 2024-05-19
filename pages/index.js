@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next Imge Converter</title>
-        <meta name="description" content="Next Imge Converter" />
+        <title>NextConvert</title>
+        <meta name="description" content="Convert any image format for free with NextConvert. Fast, easy, and reliable online tool to transform your images into the desired format in just a few clicks. No registration required. Try it now!"/>
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
