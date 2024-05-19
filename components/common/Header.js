@@ -16,9 +16,23 @@ const Header = () => {
               />
             
           </Link>
-          {/* <div className="hidden lg:block sm:ml-6">
+          <div className="hidden lg:block sm:ml-6">
           <ul className="flex space-x-10">
             <li>
+              <Link href="/privacy">
+                <span className="text-[#322354]">
+                    Privacy
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <span className="text-[#322354]">
+                    About us
+                </span>
+              </Link>
+            </li>
+            {/* <li>
               <Link href="/">
                 <span className="text-[#322354]">
                     Converter
@@ -52,9 +66,9 @@ const Header = () => {
                     Blog
                 </span>
               </Link>
-            </li>
+            </li> */}
           </ul>
-        </div> */}
+        </div>
         </div>
         
         <div className="flex items-center">
