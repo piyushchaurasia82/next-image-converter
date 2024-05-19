@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Blogs = () => {
     return(
-        <div className="mt-14">
+        <div className="mt-14 2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
             <div className="md:grid grid-cols-4 gap-x-16 mt-9">
                 <div className="col-span-1">
                     <img className="w-full" alt="Google-adsense" src="/dummy/ads.png"/>
@@ -10,7 +10,7 @@ const Blogs = () => {
                 <div className="col-span-2 flex items-center">
                     <div className="w-full">
                     <div className="banner-text">
-                        <p className="text-center font-harmony-medium lg:text-3xl md:text-xl text-base">Tips & Tricks for Image Converter</p>
+                        <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Tips & Tricks for Image Converter</p>
                        
                     </div>
                     <div className="mt-20 flex flex-wrap items-center ">

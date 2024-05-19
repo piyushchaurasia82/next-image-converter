@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
-        <footer className="mt-14 bg-black text-white py-16">
-            <div className="2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <footer className=" bg-black text-white md:py-16 py-3">
+            {/* <div className="2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="md:grid grid-cols-3 gap-x-16">
                     <div className="flex items-center justify-center">
                         <div>
@@ -45,7 +45,11 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div> */}
+            <div className="2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
+            <p className=" text-center md:text-base text-xs">© 2024 Converter, Inc. All Rights Reserved.</p>
             </div>
+            
         </footer>
     )
 }
