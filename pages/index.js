@@ -13,7 +13,8 @@ export default function Home() {
         <title>NextConvert</title>
         <meta name="description" content="Convert any image format for free with NextConvert. Fast, easy, and reliable online tool to transform your images into the desired format in just a few clicks. No registration required. Try it now!"/>
         <link rel="icon" href="/favicon.ico" />
-        
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
       </Head>
       <Script src="https://kit.fontawesome.com/ab8497c908.js" crossorigin="anonymous"></Script>
       <ImageUploader/>
