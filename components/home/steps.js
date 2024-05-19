@@ -2,9 +2,9 @@ const Steps = () => {
     return(
         <div className="lg:mt-5 mt-5 text-[#322354] 2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
             <div className="banner-text">
-                <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">How to Convert Images Easily <br/> with <span className="text-[#5a21ff]">Online Converter</span>?</p>
+                <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">How to Convert Images Easily <br/> with <span className="text-[#5a21ff]">Next</span>Convert ?</p>
                 <p className=" text-center mt-6 md:text-sm text-xs md:w-7/12 mx-auto">
-                    Online Converter is the best online image converter to convert picture for free. 
+                    Online NextConvert is the best online image converter to convert picture for free. 
                     It allows you to convert many different types of photo forms to JPG, PNG, TIFF, or BMP image formats in high-quality.
                 </p>
             </div>

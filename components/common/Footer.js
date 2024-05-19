@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
             </div> */}
             <div className="2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
-            <p className=" text-center md:text-base text-xs">© 2024 Converter, Inc. All Rights Reserved.</p>
+                <p className=" text-center md:text-base text-xs">© 2024 ❤️ NextConvert, Inc. All Rights Reserved.</p>
             </div>
             
         </footer>

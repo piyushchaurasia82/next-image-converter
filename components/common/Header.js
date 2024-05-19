@@ -10,13 +10,13 @@ const Header = () => {
           <Link href="/">
             
               <img
-                className="md:h-10 h-7"
+                className="w-[155px]"
                 src="/logo.png"
                 alt="Logo"
               />
             
           </Link>
-          <div className="hidden lg:block sm:ml-6">
+          {/* <div className="hidden lg:block sm:ml-6">
           <ul className="flex space-x-10">
             <li>
               <Link href="/">
@@ -54,21 +54,23 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         </div>
         
         <div className="flex items-center">
-          <button onClick={()=> {
-            router.push('/auth/login')
-          }} 
+          <button 
+          // onClick={()=> {
+          //   router.push('/auth/login')
+          // }} 
           className="rounded-full mr-2 font-harmony-bold text-[#6166EB] p-[1px] bg-gradient-to-r from-[#9768FC] to-[#347EED] overflow-hidden">
             <div className='flex h-full w-full items-center justify-center bg-white md:px-7 px-3 py-2 rounded-full'>
                 <p className='md:text-sm text-xs'>Log In</p>
             </div>
           </button>
-          <button onClick={()=> {
-            router.push('/auth/login')
-          }}
+          <button 
+          // onClick={()=> {
+          //   router.push('/auth/login')
+          // }}
           className="rounded-full font-harmony-bold text-white p-[1px] bg-gradient-to-r from-[#9768FC] to-[#347EED] overflow-hidden">
             <div className='flex h-full w-full items-center justify-center  md:px-7 px-3 py-2 rounded-full'>
                 <p className='md:text-sm text-xs'>SIGNUP FOR FREE</p>

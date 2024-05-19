@@ -5,7 +5,7 @@ const Gradientbanner = () => {
                 <div>
                     <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Your complete Image toolbox</p>
                     <p className=" text-center mt-6 md:text-sm text-xs md:w-7/12 mx-auto">
-                    Online Converter is the best online image converter to convert picture for free. 
+                    Online NextConvert is the best online image converter to convert picture for free. 
                     It allows you to convert many different types of photo forms to JPG, PNG, TIFF, or BMP image formats in high-quality.
                     </p>
                     <button className="rounded-full font-harmony-bold text-[#6166EB] p-[1px] bg-gradient-to-r from-[#9768FC] to-[#347EED] overflow-hidden md:mt-10 mt-5">
