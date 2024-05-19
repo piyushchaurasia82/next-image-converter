@@ -16,6 +16,7 @@ export default function Home() {
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta name="google-adsense-account" content="ca-pub-5491129078114909"></meta>
+        <meta name="google-site-verification" content="K8Mntu3yG-MQFBwGcLGC9s8roRtf6bT1_ZXqsn_IH8U" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491129078114909"
           crossorigin="anonymous"></script>
       </Head>
