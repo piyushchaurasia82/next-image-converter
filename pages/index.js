@@ -20,6 +20,18 @@ export default function Home() {
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491129078114909"
      crossorigin="anonymous"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-G50ERRPLJ3"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-G50ERRPLJ3', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        />
       </Head>
       <Script src="https://kit.fontawesome.com/ab8497c908.js" crossorigin="anonymous"></Script>
       <ImageUploader/>
