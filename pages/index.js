@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Transform Images Effortlessly: Free Online Image Format Converter at Your Fingertips</title>
+        <title>Transform Images Effortlessly: online image converter</title>
         <meta name="description" content="Your Free Online Image Converter Convert any image format for free with NextConvert. Fast, easy, and reliable online tool to transform your images into the desired format in just a few clicks. No registration required. Try it now! NextConvert offers a seamless solution to transform your images hassle-free. With our free online image converter, unlock the power to switch formats effortlessly."/>
     <link rel="canonical" href="https://nextconvert.in/">    
     <link rel="icon" href="/favicon.ico" />
