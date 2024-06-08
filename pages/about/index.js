@@ -4,7 +4,7 @@ const About = () => {
             <div className="py-[80px] font-harmony-medium text-[#282f3a]">
                 <h2 className=" text-3xl font-harmony-bold mb-5">Our History</h2>
                 <p>
-                NextConvert was born from the expertise we developed while running the widely used nextconvert.netlify.app. Through our experiences optimizing and converting images on a large scale, we saw an opportunity to simplify the process of file conversion for everyone.
+                NextConvert was born from the expertise we developed while running the widely used https://nextconvert.in. Through our experiences optimizing and converting images on a large scale, we saw an opportunity to simplify the process of file conversion for everyone.
                     <br/>
                     <br/>
                     Launched in 2024, NextConvert started with the goal of making image format conversion accessible and straightforward. As our user base grew, so did our capabilities. We expanded our services to include conversions for audio, video, and documents, making us a versatile solution for all file conversion needs.
