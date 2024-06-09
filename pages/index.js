@@ -6,7 +6,7 @@ import Whyus from '../components/home/whyus'
 import Blogs from '../components/home/blogs'
 import Gradientbanner from '../components/home/gradientbanner'
 import TransformImage from '../components/home/TransformImage'
-import Tools from '../components/home/tools'
+import Tools from '../components/home/Tools'
 
 export default function Home() {
   return (

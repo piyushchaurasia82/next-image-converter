@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Uploader from "../../components/home/Uploader";
 import Whyus from "../../components/home/whyus";
-import Tools from "../../components/home/tools";
+import Tools from "../../components/home/Tools";
 
 const ConvertEps = () => {
     return (
