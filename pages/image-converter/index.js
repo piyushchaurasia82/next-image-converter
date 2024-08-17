@@ -4,13 +4,13 @@ import Whyus from "../../components/home/whyus";
 import Tools from "../../components/home/Tools";
 import ChangeImageBlog from "../../components/home/ChangeImageblog";
 
-const ConvertTiff = () => {
+const ImageConvert = () => {
     return (
         <>
         <Head>
-            <title>Convert image to TIFF format</title>
-            <meta name="description" content="Easily convert images to TIFF format, with the option to further apply digital filters to customize their appearance." />
-            <link rel="canonical" href="https://nextconvert.in/convert-to-tiff" />
+            <title>Image Converter: Convert Image to Any Format for Free</title>
+            <meta name="description" content="Image Converter: Convert Image to Any Format for Free standard from Google using our free online converter, with instant download availability for your convenience." />
+            <link rel="canonical" href="https://nextconvert.in/convert-to-webp" />
             <meta name="robots" content="index,follow" />
             <meta name="googlebot" content="index,follow" />
             <meta httpEquiv="content-language" content="en" />
@@ -41,8 +41,8 @@ const ConvertTiff = () => {
                     </div>
                     <div className="col-span-2">
                         <div className="banner-text mb-4">
-                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert image to TIFF format</p>
-                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Easily convert images to TIFF format, with the option to further apply digital filters to customize their appearance.</p>
+                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Free Image Converter</p>
+                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Convert your images files into JPG, PNG, SVG or PDF like magic. Use Nextconvert free online image converter to turn your photos into a format suited to your platform or project, without worrying about losing image quality.</p>
                         </div>
                         <img className="w-full" alt="Google-adsense" src="/dummy/ads1.png" />
                         <Uploader />
@@ -60,4 +60,4 @@ const ConvertTiff = () => {
         </>
     )
 }
-export default ConvertTiff;
+export default ImageConvert;

@@ -7,6 +7,7 @@ import Blogs from '../components/home/blogs'
 import Gradientbanner from '../components/home/gradientbanner'
 import TransformImage from '../components/home/TransformImage'
 import Tools from '../components/home/Tools'
+import ChangeImageBlog from '../components/home/ChangeImageblog'
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <Script src="https://kit.fontawesome.com/ab8497c908.js" crossOrigin="anonymous"></Script>
       <ImageUploader />
       <Steps />
+      <ChangeImageBlog/>
       <Tools />
       <TransformImage />
       <Whyus />

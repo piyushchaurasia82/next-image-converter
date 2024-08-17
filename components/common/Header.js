@@ -27,7 +27,8 @@ const Header = () => {
               <img
                 className="w-[155px]"
                 src="/logo.png"
-                alt="Logo"
+                alt="NextConvert logo"
+                title="NextConvert logo"
               />
             
           </Link>
@@ -153,6 +154,13 @@ const Header = () => {
                 </div>
                 </div>
               }
+            </li>
+            <li>
+              <Link href="/image-converter">
+                <span className="text-[#322354]">
+                  Free Image converter
+                </span>
+              </Link>
             </li>
             {/* <li>
               <Link href="/">
