@@ -3,6 +3,8 @@ import Uploader from "../../components/home/Uploader";
 import Whyus from "../../components/home/whyus";
 import Tools from "../../components/home/Tools";
 import ChangeImageBlog from "../../components/home/ChangeImageblog";
+import Stepthree from "../../components/home/stepthree";
+import Trustpilot from "../../components/home/Trustpilot";
 
 const ConvertPng = () => {
     return (
@@ -53,6 +55,8 @@ const ConvertPng = () => {
                 </div>
             </div>
         </div>
+        <Stepthree />
+        <Trustpilot/>
         <ChangeImageBlog/>
         <Tools/>
         <Whyus/>

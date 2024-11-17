@@ -34,20 +34,6 @@ const Header = () => {
           </Link>
           <div className="hidden lg:block sm:ml-6">
           <ul className="flex space-x-10">
-            <li>
-              <Link href="/privacy">
-                <span className="text-[#322354]">
-                    Privacy
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/about">
-                <span className="text-[#322354]">
-                    About us
-                </span>
-              </Link>
-            </li>
             <li className=' relative'>
               <button onClick={()=>setShowDropDown(!ShowDropDown)} role="button" aria-haspopup="true" data-toggle="dropdown">
                 <span className="text-[#322354]">
@@ -62,7 +48,7 @@ const Header = () => {
                   setShowDropDown(false)
                 }} 
                 className=' absolute bg-white p-5 top-[100%] min-w-40 w-max bg-shadow rounded-b-lg'>
-                <div className=' grid grid-cols-2 w-full text-sm'>
+                <div className=' grid grid-cols-3 w-full text-sm'>
                   <ul>
                       <li className='p-2 pr-3 hover:bg-slate-300'>
                         <Link href="/convert-to-bmp">
@@ -150,7 +136,51 @@ const Header = () => {
                         </span>
                       </Link>
                     </li>
-                </ul>
+                  </ul>
+                  <ul>
+                    <li className='p-2 pr-3 hover:bg-slate-300'>
+                      <Link href="/jpg-to-png">
+                        <span className="text-[#322354] whitespace-nowrap">
+                            JPG to PNG
+                        </span>
+                      </Link>
+                    </li>
+                    <li className='p-2 pr-3 hover:bg-slate-300'>
+                      <Link href="/png-to-jpg">
+                        <span className="text-[#322354] whitespace-nowrap">
+                        PNG to JPG
+                        </span>
+                      </Link>
+                    </li>
+                    <li className='p-2 pr-3 hover:bg-slate-300'>
+                      <Link href="/png-to-webp">
+                        <span className="text-[#322354] whitespace-nowrap">
+                        PNG to WEBP
+                        </span>
+                      </Link>
+                    </li>
+                    <li className='p-2 pr-3 hover:bg-slate-300'>
+                      <Link href="/jpg-to-webp">
+                        <span className="text-[#322354] whitespace-nowrap">
+                        JPG to WEBP
+                        </span>
+                      </Link>
+                    </li>
+                    <li className='p-2 pr-3 hover:bg-slate-300'>
+                      <Link href="/jpeg-to-webp">
+                        <span className="text-[#322354] whitespace-nowrap">
+                        JPEG to WEBP
+                        </span>
+                      </Link>
+                    </li>
+                    <li className='p-2 pr-3 hover:bg-slate-300'>
+                      <Link href="/jpeg-to-jpg">
+                        <span className="text-[#322354] whitespace-nowrap">
+                        JPEG to JPG
+                        </span>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
                 </div>
               }
@@ -159,6 +189,20 @@ const Header = () => {
               <Link href="/image-converter">
                 <span className="text-[#322354]">
                   Free Image converter
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/privacy">
+                <span className="text-[#322354]">
+                    Privacy
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <span className="text-[#322354]">
+                    About us
                 </span>
               </Link>
             </li>
@@ -201,26 +245,26 @@ const Header = () => {
         </div>
         </div>
         
-        <div className="flex items-center">
-          {/* <button 
-          // onClick={()=> {
-          //   router.push('/auth/login')
-          // }} 
+        {/* <div className="flex items-center">
+          <button 
+          onClick={()=> {
+            router.push('/auth/login')
+          }} 
           className="rounded-full mr-2 font-harmony-bold text-[#6166EB] p-[1px] bg-gradient-to-r from-[#9768FC] to-[#347EED] overflow-hidden">
             <div className='flex h-full w-full items-center justify-center bg-white md:px-7 px-3 py-2 rounded-full'>
                 <p className='md:text-sm text-xs'>Log In</p>
             </div>
           </button>
           <button 
-          // onClick={()=> {
-          //   router.push('/auth/login')
-          // }}
+          onClick={()=> {
+            router.push('/auth/login')
+          }}
           className="rounded-full font-harmony-bold text-white p-[1px] bg-gradient-to-r from-[#9768FC] to-[#347EED] overflow-hidden">
             <div className='flex h-full w-full items-center justify-center  md:px-7 px-3 py-2 rounded-full'>
                 <p className='md:text-sm text-xs'>SIGNUP FOR FREE</p>
             </div>
-          </button> */}
-        </div>
+          </button>
+        </div> */}
       </nav>
     </header>
   );

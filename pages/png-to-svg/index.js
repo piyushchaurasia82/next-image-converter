@@ -10,8 +10,8 @@ const ConvertBmp = () => {
     return (
       <>
         <Head>
-        <title>Convert an image to the BMP format</title>
-        <meta name="description" content="Effortlessly convert your images to the BMP format using our free online image converter." />
+        <title>Convert an image PNG to SVG</title>
+        <meta name="description" content="Effortlessly convert your images PNG to SVG using our free online image converter." />
         <link rel="canonical" href="https://nextconvert.in/convert-to-bmp" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index,follow" />
@@ -44,8 +44,8 @@ const ConvertBmp = () => {
                     </div>
                     <div className="col-span-2">
                         <div className="banner-text mb-4">
-                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert an image to the BMP format</p>
-                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Effortlessly convert your images to the BMP format using our free online image converter.</p>
+                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert an image PNG to SVG</p>
+                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Effortlessly convert your images PNG to SVG using our free online image converter.</p>
                         </div>
                         <img className="w-full" alt="Google-adsense" src="/dummy/ads1.png" />
                         <Uploader />

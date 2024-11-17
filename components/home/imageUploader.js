@@ -52,21 +52,22 @@ const ImageUploader = () => {
             <div className=" text-[#322354] 2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8"> 
             <div className="banner-upload md:grid lg:grid-cols-4 grid-cols-1 lg:gap-x-16 lg:pt-9">
                 <div className=" col-span-1">
-                    <img className="w-full lg:h-full md:h-[300px] h-[155px] object-contain" alt="Google-adsense" src="/dummy/ads.png"/>
+                    <img className="w-full lg:h-full md:h-[300px] h-[155px] object-contain" title="Free Online Image Converter jpg to png" alt="Free Online Image Converter jpg to png" src="/dummy/ads.png"/>
                 </div>
                 <div className="col-span-2">
                     <div className="banner-text mb-4">
                         <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Free Online Image Converter</p>
                         <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Convert images online effortlessly! Choose from multiple formats, apply effects, and enhance your visuals instantly with our Online Image Converter. Try it now!</p>
                     </div>
-                    <img className="w-full" alt="Google-adsense" src="/dummy/ads1.png"/>
+                    <img className="w-full" title="Convert image file with different formats" alt="Convert image file with different formats" src="/dummy/ads1.png"/>
                    <Uploader 
                    title="Free Online Image Converter"
                    content="Convert images online effortlessly! Choose from multiple formats, apply effects, and enhance your visuals instantly with our Online Image Converter. Try it now!"
                    />
+                   <img className="w-full" alt="Convert image to PNG" title="Convert image to PNG" src="/dummy/ads1.png"/>
                 </div>
                 <div className="col-span-1">
-                    <img className="w-full lg:h-full md:h-[300px] h-[155px] object-contain" alt="Google-adsense" src="/dummy/ads.png"/>
+                    <img className="w-full lg:h-full md:h-[300px] h-[155px] object-contain" alt="Free Online Image Converter png to jpg" title="Free Online Image Converter png to jpg" src="/dummy/ads.png"/>
                 </div>
             </div>
         </div>

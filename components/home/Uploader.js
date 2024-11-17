@@ -47,7 +47,7 @@ const Uploader = () => {
     };
 
     return(
-        <div className="md:mt-10 mt-5 upload-box bg-shadow rounded-[10px] md:py-6 py-4 md:px-7 px-4">
+        <div className="md:my-8 my-5 upload-box bg-shadow rounded-[10px] md:py-6 py-4 md:px-7 px-4">
         <div className="bg-[#fff] rounded-[10px] border-2 border-dashed border-[#5a21ff] md:py-10 py-5 px-7 text-center relative">
             {!imageURL &&
             <>

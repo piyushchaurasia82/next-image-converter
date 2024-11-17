@@ -8,6 +8,8 @@ import Gradientbanner from '../components/home/gradientbanner'
 import TransformImage from '../components/home/TransformImage'
 import Tools from '../components/home/Tools'
 import ChangeImageBlog from '../components/home/ChangeImageblog'
+import Stepthree from '../components/home/stepthree'
+import Trustpilot from '../components/home/Trustpilot'
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Head>
         <title>Transform Images Effortlessly: online image converter</title>
         <meta name="description" content="Your Free Online Image Converter Convert any image format for free with NextConvert. Fast, easy, and reliable online tool to transform your images into the desired format in just a few clicks. No registration required. Try it now! NextConvert offers a seamless solution to transform your images hassle-free. With our free online image converter, unlock the power to switch formats effortlessly." />
+        <meta name="trustpilot-one-time-domain-verification-id" content="ed91edf4-8621-4f41-bba7-341e043c3e39"/>
         <link rel="canonical" href="https://nextconvert.in/" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index,follow" />
@@ -40,6 +43,8 @@ export default function Home() {
       </Head>
       <Script src="https://kit.fontawesome.com/ab8497c908.js" crossOrigin="anonymous"></Script>
       <ImageUploader />
+      <Stepthree />
+      <Trustpilot/>
       <Steps />
       <ChangeImageBlog/>
       <Tools />
