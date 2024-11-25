@@ -43,8 +43,8 @@ const ConvertIco = () => {
                     </div>
                     <div className="col-span-2">
                         <div className="banner-text mb-4">
-                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert files to GIF</p>
-                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Switch your images to the ICO format, and you can even create a favicon.ico using our converter.</p>
+                            <h1 className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert files to GIF</h1>
+                            <h2 className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Switch your images to the ICO format, and you can even create a favicon.ico using our converter.</h2>
                         </div>
                         <img className="w-full" alt="Google-adsense" src="/dummy/ads1.png" />
                         <Uploader />
