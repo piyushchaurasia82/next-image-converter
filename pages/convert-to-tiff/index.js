@@ -43,8 +43,8 @@ const ConvertTiff = () => {
                     </div>
                     <div className="col-span-2">
                         <div className="banner-text mb-4">
-                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert image to TIFF format</p>
-                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Easily convert images to TIFF format, with the option to further apply digital filters to customize their appearance.</p>
+                            <h1 className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert image to TIFF format</h1>
+                            <h2 className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Easily convert images to TIFF format, with the option to further apply digital filters to customize their appearance.</h2>
                         </div>
                         <img className="w-full" alt="Google-adsense" src="/dummy/ads1.png" />
                         <Uploader />
