@@ -43,8 +43,8 @@ const ConvertGif = () => {
                     </div>
                     <div className="col-span-2">
                         <div className="banner-text mb-4">
-                            <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert files to GIF</p>
-                            <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Convert images to the GIF format or even turn videos into animated GIFs with our versatile online converter.</p>
+                            <h1 className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Convert files to GIF</h1>
+                            <h2 className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Convert images to the GIF format or even turn videos into animated GIFs with our versatile online converter.</h2>
                         </div>
                         <img className="w-full" alt="Google-adsense" src="/dummy/ads1.png" />
                         <Uploader />
