@@ -56,8 +56,8 @@ const ImageUploader = () => {
                 </div>
                 <div className="col-span-2">
                     <div className="banner-text mb-4">
-                        <p className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Free Online Image Converter</p>
-                        <p className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Convert images online effortlessly! Choose from multiple formats, apply effects, and enhance your visuals instantly with our Online Image Converter. Try it now!</p>
+                        <h1 className="text-center font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl">Free Online Image Converter</h1>
+                        <h2 className=" text-center md:mt-6 mt-3 md:text-lg text-sm text-[#706f73]">Convert images online effortlessly! Choose from multiple formats, apply effects, and enhance your visuals instantly with our Online Image Converter. Try it now!</h2>
                     </div>
                     <img className="w-full" title="Convert image file with different formats" alt="Convert image file with different formats" src="/dummy/ads1.png"/>
                    <Uploader 
