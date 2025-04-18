@@ -40,16 +40,6 @@ export default function Home() {
           `,
           }}
         />
-        <Script id="custom-external-script" strategy="afterInteractive">
-          {`
-            (function () {
-              var script = document.createElement("script");
-              script.async = 1;
-              script.src = 'https://mn-tz.com/NDA4NTQ5.js?t=408549';
-              document.head.appendChild(script);
-            })();
-          `}
-        </Script>
       </Head>
       <Script src="https://kit.fontawesome.com/ab8497c908.js" crossOrigin="anonymous"></Script>
       <ImageUploader />
