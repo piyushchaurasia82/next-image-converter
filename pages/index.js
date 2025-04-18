@@ -60,19 +60,22 @@ export default function Home() {
         strategy="beforeInteractive"
       />
 
-      {/* Custom External Script (mn-tz.com) */}
-      <Script id="custom-external-script" strategy="afterInteractive">
+      {/* Custom Script with data-noptimize attributes */}
+      <Script id="mn-tz-loader" strategy="afterInteractive">
         {`
           (function () {
             var script = document.createElement("script");
             script.async = 1;
+            script.setAttribute("data-noptimize", "1");
+            script.setAttribute("data-cfasync", "false");
+            script.setAttribute("data-wpfc-render", "false");
             script.src = "https://mn-tz.com/NDA4NTQ5.js?t=408549";
             document.head.appendChild(script);
           })();
         `}
       </Script>
 
-      {/* Main Components */}
+      {/* Page Components */}
       <ImageUploader />
       <Stepthree />
       <Trustpilot />
