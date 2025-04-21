@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Transform Images Effortlessly: online image converter</title>
+        <title>Free online image converter</title>
         <meta
           name="description"
-          content="Convert any image format for free with NextConvert. Fast, easy, and reliable image converter to switch formats in just a few clicks. No signup needed!"
+          content="Convert images to different formats instantly with our free online image converter. Easy to use, no downloads required – support for JPG, PNG, WebP, GIF, BMP, and more."
         />
         <meta name="trustpilot-one-time-domain-verification-id" content="ed91edf4-8621-4f41-bba7-341e043c3e39" />
         <link rel="canonical" href="https://nextconvert.in/" />
