@@ -2,7 +2,7 @@ const TransformImage  = () => {
 return(
     <div className="mt-20 2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8">
     <div className="banner-text">
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
             <div>
             <p className="font-harmony-bold 2xl:text-5xl xl:text-4xl lg:text-4xl text-3xl text-[#322354]">Transform Your Images for Free with NextConvert: The Ultimate Free Image Converter</p>
             <p className=" mt-6">
@@ -15,7 +15,7 @@ return(
                 <img alt="transfromimage" className="w-9/12 mx-auto" src="/transfromimage.jpg"/>
             </div>
         </div>
-        <div className="grid grid-cols-2 mt-20">
+        <div className="grid md:grid-cols-2 mt-20">
             <div>
                 <img alt="converter" className="w-9/12 mx-auto" src="/converter.png"/>
             </div>

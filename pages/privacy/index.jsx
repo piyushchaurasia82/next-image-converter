@@ -7,7 +7,7 @@ const Privacy = () => {
                 This policy sets out NextConvert's privacy practices in connection with all services provided by us.
                     <br/>
                     <br/>
-                NextConvert is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by NextConvert. By using our website, https://nextconvert.netlify.app ("Service"), you agree to the collection and use of information in accordance with this policy.</p>
+                NextConvert is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by NextConvert. By using our website, https://nextconvert.in ("Service"), you agree to the collection and use of information in accordance with this policy.</p>
                 <br/>
                 <br/>
                 <h2 className=" text-3xl font-harmony-bold mb-5">1. Information We Collect</h2>
