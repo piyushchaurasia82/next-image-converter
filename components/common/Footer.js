@@ -39,7 +39,7 @@ const Footer = () => {
                                     <li>HEIC to JPG</li>
                                     <li>Image to PDF</li>
                                     <li>Free Resume build</li>
-                                    <li>Blog</li>
+                                    <li><Link href="/blog">Blog</Link></li>
                                     <li>Image Converter</li>
                                 </ul>
                             </div>
