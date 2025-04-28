@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { blogPosts } from "../blogPosts";
+import { blogPosts } from "../../blogPosts";
 
 const Blog = () => {
   const [searchTerm, setSearchTerm] = useState("");

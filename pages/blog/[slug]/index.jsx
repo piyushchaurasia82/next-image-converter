@@ -2,7 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { blogPosts } from '../../blogPosts';
+import { blogPosts } from '../../../blogPosts';
 
 export default function Page() {
   const params = useParams();
