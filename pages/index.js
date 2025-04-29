@@ -10,8 +10,28 @@ import Tools from '../components/home/Tools'
 import ChangeImageBlog from '../components/home/ChangeImageblog'
 import Stepthree from '../components/home/stepthree'
 import Trustpilot from '../components/home/Trustpilot'
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.type = 'text/javascript'
+    script.src = '//www.highperformanceformat.com/bb40115077e2567015a882f7c822480f/invoke.js'
+    document.body.appendChild(script)
+
+    const adContainer = document.createElement('div')
+    adContainer.id = 'ad-container'
+    document.body.appendChild(adContainer)
+
+    // Adsterra requires this object to be defined globally
+    window.atOptions = {
+      'key': 'bb40115077e2567015a882f7c822480f',
+      'format': 'iframe',
+      'height': 60,
+      'width': 468,
+      'params': {}
+    }
+  }, [])
   return (
     <>
       <Head>

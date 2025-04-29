@@ -52,7 +52,7 @@ const ImageUploader = () => {
             <div className=" text-[#322354] 2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8"> 
             <div className="banner-upload md:grid lg:grid-cols-4 grid-cols-1 lg:gap-x-16 lg:pt-9">
                 <div className=" col-span-1">
-                    <img className="w-full lg:h-full md:h-[300px] h-[155px] object-contain" title="Free Online Image Converter jpg to png" alt="Free Online Image Converter jpg to png" src="/dummy/ads.png"/>
+                <div id="ad-container" className="w-full lg:h-full md:h-[300px] h-[155px] object-contain"></div>
                 </div>
                 <div className="col-span-2">
                     <div className="banner-text mb-4">
@@ -67,7 +67,7 @@ const ImageUploader = () => {
                    <img className="w-full" alt="Convert image to PNG" title="Convert image to PNG" src="/dummy/ads1.png"/>
                 </div>
                 <div className="col-span-1">
-                    <img className="w-full lg:h-full md:h-[300px] h-[155px] object-contain" alt="Free Online Image Converter png to jpg" title="Free Online Image Converter png to jpg" src="/dummy/ads.png"/>
+                <div id="ad-container" className="w-full lg:h-full md:h-[300px] h-[155px] object-contain"></div>
                 </div>
             </div>
         </div>
