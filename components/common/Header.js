@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
@@ -19,6 +20,10 @@ const Header = () => {
   //   };
   // }, [dropDownRef]);
   return (
+    <>
+    <Head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </Head>
     <header className="bg-[#fff] bg-shadow">
       <nav className="2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         <div className="flex items-center text-base">
@@ -268,6 +273,7 @@ const Header = () => {
         </div> */}
       </nav>
     </header>
+    </>
   );
 };
 

@@ -26,11 +26,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/convert-to-tga": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/convert-to-tga.js"
     ]
   },
   "ampFirstPages": []
