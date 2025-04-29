@@ -1,6 +1,6 @@
 
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Uploader from './Uploader';
 
 const ImageUploader = () => {
@@ -47,6 +47,30 @@ const ImageUploader = () => {
         }
     };
 
+    const containerRef = useRef()
+
+    useEffect(() => {
+      if (typeof window !== 'undefined') {
+        window.atOptions = {
+          key: 'bb40115077e2567015a882f7c822480f',
+          format: 'iframe',
+          height: 60,
+          width: 468,
+          params: {}
+        }
+  
+        const script = document.createElement('script')
+        script.type = 'text/javascript'
+        script.src = '//www.highperformanceformat.com/bb40115077e2567015a882f7c822480f/invoke.js'
+        script.async = true
+  
+        if (containerRef.current) {
+          containerRef.current.innerHTML = '' // Clear in case of hot reload
+          containerRef.current.appendChild(script)
+        }
+      }
+    }, [])
+
     return(
         <section className=''>
             <div className=" text-[#322354] 2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8"> 
@@ -61,7 +85,7 @@ const ImageUploader = () => {
                     </div>
                     {/* <img className="w-full" title="Convert image file with different formats" alt="Convert image file with different formats" src="/dummy/ads1.png"/> */}
                     <div>
-                      <div id='ad-container'></div>
+                      <div ref={containerRef} id='ad-container'></div>
                     </div>
                    <Uploader 
                    title="Free Online Image Converter"
