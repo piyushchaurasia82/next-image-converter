@@ -54,15 +54,15 @@ const ImageUploader = () => {
       if (ref && ref.current) {
         ref.current.innerHTML = '';
         window.atOptions = {
-          key: 'bb40115077e2567015a882f7c822480f',
+          key: '085ca43650a60fe9dc71fc5c3760ac7d',
           format: 'iframe',
-          height: 60,
-          width: 468,
+          height: 90,
+          width: 728,
           params: {}
         };
         const script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = '//www.highperformanceformat.com/bb40115077e2567015a882f7c822480f/invoke.js';
+        script.src = '//www.highperformanceformat.com/085ca43650a60fe9dc71fc5c3760ac7d/invoke.js';
         script.async = true;
         ref.current.appendChild(script);
       }
