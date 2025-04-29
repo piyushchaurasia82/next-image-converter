@@ -16,18 +16,11 @@ export default function Home() {
     <>
       <Head>
         <title>Free online image converter</title>
+        <link rel="canonical" href="https://nextconvert.in/" />
         <meta
           name="description"
           content="Convert images to different formats instantly with our free online image converter. Easy to use, no downloads required – support for JPG, PNG, WebP, GIF, BMP, and more."
         />
-        <meta name="trustpilot-one-time-domain-verification-id" content="ed91edf4-8621-4f41-bba7-341e043c3e39" />
-        <link rel="canonical" href="https://nextconvert.in/" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="robots" content="index,follow" />
-        <meta name="googlebot" content="index,follow" />
-        <meta httpEquiv="content-language" content="en" />
-        <meta name="google-adsense-account" content="ca-pub-5491129078114909" />
-        <meta name="google-site-verification" content="K8Mntu3yG-MQFBwGcLGC9s8roRtf6bT1_ZXqsn_IH8U" />
       </Head>
 
       {/* Google AdSense */}

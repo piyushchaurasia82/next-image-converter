@@ -23,6 +23,28 @@ const Header = () => {
     <>
     <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="trustpilot-one-time-domain-verification-id" content="ed91edf4-8621-4f41-bba7-341e043c3e39" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta httpEquiv="content-language" content="en" />
+    <meta name="google-adsense-account" content="ca-pub-5491129078114909" />
+    <meta name="google-site-verification" content="K8Mntu3yG-MQFBwGcLGC9s8roRtf6bT1_ZXqsn_IH8U" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5491129078114909"
+    crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G50ERRPLJ3"></script>
+    <script
+    dangerouslySetInnerHTML={{
+        __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-G50ERRPLJ3', {
+        page_path: window.location.pathname,
+        });
+    `,
+    }}
+    />
     </Head>
     <header className="bg-[#fff] bg-shadow">
       <nav className="2xl:w-10/12 lg:w-full mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
