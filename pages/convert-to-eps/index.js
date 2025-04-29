@@ -39,7 +39,7 @@ const ConvertEps = () => {
             <div className="">
                 <div className="banner-upload md:grid lg:grid-cols-4 grid-cols-1 lg:gap-x-16 lg:pt-9">
                     <div className=" col-span-1">
-                        <div id="ad-container" className="w-full lg:h-full md:h-[300px] h-[155px] object-contain"></div>
+                        <div  className="w-full lg:h-full md:h-[300px] h-[155px] object-contain"></div>
                     </div>
                     <div className="col-span-2">
                         <div className="banner-text mb-4">
@@ -50,7 +50,7 @@ const ConvertEps = () => {
                         <Uploader />
                     </div>
                     <div className="col-span-1">
-                        <div id="ad-container" className="w-full lg:h-full md:h-[300px] h-[155px] object-contain"></div>
+                        <div  className="w-full lg:h-full md:h-[300px] h-[155px] object-contain"></div>
                     </div>
                 </div>
             </div>
