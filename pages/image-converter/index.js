@@ -10,7 +10,7 @@ const ImageConvert = () => {
     return (
         <>
         <Head>
-            <title>Image Converter: Convert Image to Any Format for Free</title>
+            <title>Free Image Converter</title>
             <meta name="description" content="Image Converter: Convert Image to Any Format for Free standard from Google using our free online converter, with instant download availability for your convenience." />
             <link rel="canonical" href="https://nextconvert.in/convert-to-webp" />
         </Head>
