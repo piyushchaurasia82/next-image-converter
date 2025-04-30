@@ -3,6 +3,7 @@
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { blogPosts } from '../../../blogPosts';
+import Head from 'next/head';
 
 export default function Page() {
   const params = useParams();
@@ -40,6 +41,12 @@ export default function Page() {
   }
 
   return (
+    <>
+    <Head>
+    <title>{post.title}</title>
+    <meta name="description" content={post.excerpt} />
+    <link rel="canonical" href={`https://nextconvert.in/${slug}`} />
+  </Head>
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* Meta Info */}
       <div className="text-sm text-center text-gray-500 mb-3">
@@ -96,5 +103,6 @@ export default function Page() {
         </div>
       </div>
     </div>
+    </>
   );
 }
